@@ -1,0 +1,32 @@
+
+#all-counter{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.country{
+    background-color: black;
+    border: red 2px solid;
+    color: aliceblue;
+    padding: 20px;
+    width: 380px;
+    text-align: center;
+}
+.name{
+   color: crimson;
+   text-transform: uppercase;
+}
+.capital{
+    color: yellowgreen;
+    text-transform: uppercase;
+    font-size: 20px;
+ }
+
+ .population{
+    color: yellow;
+    font-size: 18px;
+ }
+ #countryDetails>img{
+     width: 250px;
+ }
